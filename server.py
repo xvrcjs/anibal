@@ -5,5 +5,8 @@ server.bind(("localhost", 9999))
 server.listen(5)
 cliente, datos = server.accept()
 mensaje = cliente.recv(1024)
-print mensaje
+
+if mensaje = "Alojomora":
+	print mensaje
+
 
